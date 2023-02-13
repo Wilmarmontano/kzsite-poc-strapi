@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "TeamMember"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "kz_email": {
+      "type": "email"
+    }
+  }
+}
